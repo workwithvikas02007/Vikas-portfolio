@@ -18,6 +18,8 @@
   
 <title>Vikas Sahu | Personal Portfolio</title>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 <style>
 * {
     margin: 0;
@@ -264,6 +266,70 @@ footer {
         transform: none;
     }
 }
+
+
+/* SOCIAL MEDIA SECTION */
+
+.social-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #050816;
+}
+
+.social-section h2 {
+    color: #38bdf8;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    background: #12213c;
+    border: 1px solid #254c73;
+    border-radius: 18px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px #38bdf855;
+}
+
+.social-icons .instagram:hover {
+    color: #E1306C;
+    border-color: #E1306C;
+}
+
+.social-icons .facebook:hover {
+    color: #1877F2;
+    border-color: #1877F2;
+}
+
+.social-icons .twitter:hover {
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.social-text {
+    color: #b7c4d8;
+    margin-top: 25px;
+}
+
 </style>
 </head>
 
@@ -451,6 +517,50 @@ footer {
     </p>
 
     <a href="#home" class="btn reveal">Back To Top ↑</a>
+
+</section>
+
+
+<!-- SOCIAL MEDIA SECTION -->
+
+<section class="social-section" id="social">
+
+    <h2>Connect With Me</h2>
+
+    <div class="social-icons">
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/vikasss.png/"
+           class="instagram"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <!-- Facebook -->
+        <a href="YOUR_FACEBOOK_PROFILE_URL"
+           class="facebook"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <!-- X Twitter -->
+        <a href="https://x.com/vikassspng"
+           class="twitter"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="X Twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+    </div>
+
+    <p class="social-text">
+        Follow me on social media ❤️
+    </p>
 
 </section>
 
